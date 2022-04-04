@@ -3,7 +3,7 @@
 // @namespace    https://github.com/Ekinoxx0/flashback-rplace
 // @version     1
 // @description  FlashBack Template
-// @author       Ekinoxx0
+// @author       Cpt.Dinosaur
 // @match        https://hot-potato.reddit.com/embed*
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
@@ -41,8 +41,8 @@ var MINUTE = 60 * SECOND;
             // Load the image
                 const image = document.createElement("img");
                 image.src = overlayLink;
-                image.onload = () => {
-                    image.style = `position: absolute; left: 0; top: 0; width: 2000px; height: 2000px; image-rendering: pixelated; z-index: 1`;
+                image.onload = () => { //251&cy=1890 // 290&cy=1925
+                    image.style = `position: absolute; left: 251px; top: 1890px; width: 40px; height: 36px; image-rendering: pixelated; z-index: 1; opacity: 60%;`;
                 };
         
                 // Add the image as overlay
@@ -117,8 +117,8 @@ function requiresUpdate(){
 function startNotify(){
     if(!START_NOTIFIED){
         Toastify({
-            text: `MERCI DE SUPPORTER FLASHBACK (Discord)`,
-            duration: SECOND * 10,
+            text: `FLASHBACK ACTIF`,
+            duration: SECOND * 3,
             onClick: () => {
                 window.location = "https://discord.gg/flashback";
             }
