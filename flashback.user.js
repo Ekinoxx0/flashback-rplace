@@ -3,7 +3,7 @@
 // @namespace    https://github.com/Ekinoxx0/flashback-rplace
 // @version     1
 // @description  FlashBack Template
-// @author       Cpt.Dinosaur
+// @author       Ekinoxx0
 // @match        https://hot-potato.reddit.com/embed*
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
